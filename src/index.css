@@ -1,0 +1,381 @@
+@import url('https://fonts.cdnfonts.com/css/common-pixel');
+
+body, html {
+  background-image: url("../images/background.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: cover;
+  font-family: 'Common Pixel', sans-serif;
+}
+
+.chars{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 99vh;
+  height: 94vh;
+  
+}
+
+.App div{
+ border: 0px solid white;
+}
+
+.page-container{
+  width: 90%;
+  height: 95vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-container{
+  width: 60%;
+  height: 90vh;
+  background-color:  rgb(49, 51, 51);
+  box-shadow: 0px 0px 10px rgb(119, 197, 187);
+  border-radius: 40px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2%;
+}
+
+hr{
+  width: 95%;
+  margin: 30px 10px;
+  border: 5px solid  rgb(71, 72, 72);
+  border-radius: 10px;
+}
+
+.content-header{
+  height: 10%;
+  text-align: center;
+}
+
+h1{
+ color: rgb(179, 179, 179);
+ text-shadow: 0px 0px 20px rgb(26, 26, 26);
+ font-size: 5vh;
+}
+
+.left-container{
+  width: 40%;
+  height: 95vh;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.right-container{
+  width: 59%;
+  height: 95vh;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.logo-container{
+  height: 30%;
+  width: 99%;
+  vertical-align: top;
+}
+
+.buttons-container{
+  width: 99%;
+  height: 69%;
+}
+
+.logo-container img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  height: 23vh;
+  border-radius: 10%;
+  box-shadow: 0px 0px 20px rgb(119, 197, 187);
+  float: right;
+}
+
+.logo-container h1{
+  font-size: 12vh;
+  color: rgb(166, 237, 213) ;
+  text-shadow: 3px 3px 3px rgb(22, 22, 22);
+  height: 10vh;
+}
+
+.button-container{
+  width: 65%;
+  height: 6vh;
+  /*background-color:  rgb(39, 40, 40);*/
+  border-radius: 40px;
+  padding: 25px 40px;
+  /*box-shadow: 3px 3px 3px rgb(119, 197, 187);*/
+  margin: 10px 80px;
+}
+
+.button-dot{
+  width: 5vh;
+  height: 5vh;
+  background-color:  rgb(97, 216, 177);
+  box-shadow: 3px 3px 3px rgb(70, 72, 72) inset;
+  border-radius: 100%;
+  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-container h1{
+  text-align: center;
+  color: rgb(166, 237, 213) ;
+  margin-bottom: auto;
+  margin-top: auto;
+  display: block;
+  text-shadow: 3px 3px 15px rgb(0, 0, 0);
+  font-size: 7vh;
+  margin-left: 20%;
+}
+
+.curser{
+  position: absolute;
+  width: 11vh;
+  float:right;
+  left:35%;
+  display: none;
+}
+
+.nav-container .curser{
+  position: absolute;
+  width: 11vh;
+  float:right;
+  left:70%;
+  display: none;
+}
+
+.nav-container h1{
+  text-align: center;
+  color: rgb(166, 237, 213) ;
+  margin-bottom: auto;
+  margin-top: auto;
+  display: block;
+  text-shadow: 3px 3px 15px rgb(0, 0, 0);
+  font-size: 2vw;
+  margin-left: 20%;
+}
+
+.button-container:hover .curser{
+  display: block;
+}
+
+.nav-container:hover .curser{
+  display: block;
+}
+
+.button-container:hover{
+  box-shadow: 0px 0px 13px rgb(119, 197, 187);
+}
+
+.content{
+  width: 80%;
+  height: 55vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  
+}
+
+.content p{
+  color: rgb(179, 179, 179);
+  font-size: 3vh;
+}
+
+.about-logo{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 10vh;
+  height:10vh;
+}
+
+.nav-container{
+  position: absolute;
+  width: 10%;
+  height: 6vh;
+  background-color:  rgb(39, 40, 40);
+  border-radius: 40px;
+  padding: 25px 40px;
+  box-shadow: 3px 3px 3px rgb(119, 197, 187);
+  margin:25px 5px;
+  
+}
+
+.side-content{
+  width: 18%;
+  height: 90vh;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+
+.channels-container{
+  width: fit-content;
+  height: fit-content;
+  background-color:  rgb(39, 40, 40);
+  border-radius: 40px;
+  padding: 25px 40px;
+  box-shadow: 0px 0px 3px rgb(119, 197, 187);
+  position: absolute;
+  margin:25px 15px;
+  margin-top: 4%;
+}
+
+.channel img{
+  width: 5vw;
+  border-radius: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  box-shadow: 0px 0px 15px rgb(18, 18, 18);
+}
+
+.channel h3{
+  display: inline-block;
+  bottom:100px;
+  font-size: 3vh;
+  margin-left: 7px;
+  vertical-align: top;
+  color: rgb(179, 179, 179);
+  text-shadow: 0px 0px 15px rgb(18, 18, 18);
+}
+
+.channel{
+  margin:10px 10px;
+}
+
+.home-button{
+  background-color:  rgb(39, 40, 40);
+  border-radius: 50px;
+  box-shadow: 0px 0px 13px rgb(119, 197, 187);
+  width: fit-content;
+  padding: 15px 15px;
+  margin: 30px 40px;
+}
+
+.home-button:hover{
+  box-shadow: 0px 0px 23px rgb(119, 197, 187);
+}
+
+.side-pic{
+  height: 80%;
+}
+
+.popup-content {
+  width: 40%;
+  height: 90vh;
+  background-color:  rgb(49, 51, 51);
+  box-shadow: 0px 0px 10px rgb(119, 197, 187);
+  border-radius: 40px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2%;
+  border:none;
+}
+
+.popup-content p{
+  color: rgb(179, 179, 179);
+  font-size: 3vh;
+}
+
+form .info-entry{
+  display: block;
+  margin: 10px 10px;
+}
+
+form input{
+  display: block;
+  height: 4vh;
+  width: 30vw;
+  margin-top: 3%;
+  font-size: 4vh;
+  color: rgb(97, 97, 97);
+  border-radius: 10px;
+  border:none;
+}
+
+form label{
+  display: block;
+  color: rgb(179, 179, 179);
+  margin-top: 5%;
+  font-size: 4vh;
+}
+
+button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  color: rgb(179, 179, 179);
+  font-family: 'Common Pixel', sans-serif;
+  height: 7vh;
+  width: 12vw;
+  font-size: 3vh;
+  background-color: rgb(48, 48, 48);
+  border-radius: 10px;
+  border: 5px solid rgb(119, 197, 187);
+}
+
+button:hover{
+  border: 6px solid rgb(51, 224, 201);
+  color:rgb(51, 224, 201);
+}
+
+.gallery-container{
+  display: inline-block;
+  width: 82%;
+  height: 90hv;
+}
+
+iframe{
+  border-radius: 20px;
+  border:none;
+  height:25vh; 
+  width:20vw;
+  box-shadow: 0px 0px 10px rgb(173, 183, 181);
+  margin: 8px 20px;
+}
+
+.video-container{
+  color: rgb(179, 179, 179);
+  text-align: center;
+}
+
+.gallery-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 70vw;
+  height: 75%;
+  overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:none; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aeaeae;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
