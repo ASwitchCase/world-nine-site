@@ -5,7 +5,7 @@ import { Outlet, Link } from "react-router-dom";
 import NavButton from '../components/NavButton';
 import Channels from '../components/Channels';
 import homeimg from '../../images/home.png';
-import jokerimg from '../../images/joker.png';
+import jokerimg from '../../images/Joker.png';
 const About = () => {
   return (
     <React.Fragment>
