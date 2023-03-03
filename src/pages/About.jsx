@@ -4,7 +4,8 @@ import Button from '../components/Button'
 import { Outlet, Link } from "react-router-dom";
 import NavButton from '../components/NavButton';
 import Channels from '../components/Channels';
-
+import homeimg from '../../images/home.png';
+import jokerimg from '../../images/joker.png';
 const About = () => {
   return (
     <React.Fragment>
@@ -12,10 +13,10 @@ const About = () => {
             <div className='side-content'>
                 <Link to='/'>
                     <div className='home-button'>
-                        <img src='../../images/home.png'></img>
+                        <img src={homeimg}></img>
                     </div>
                 </Link>
-                <img className='side-pic' src='../../images/Joker.png'></img>
+                <img className='side-pic' src={jokerimg}></img>
             </div>
             
             <div className='content-container'>

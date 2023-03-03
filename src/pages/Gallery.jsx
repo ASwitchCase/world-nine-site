@@ -1,7 +1,8 @@
 import React from 'react'
 import { Outlet, Link } from "react-router-dom";
 import Video from '../components/Video';
-
+import homeimg from '../../images/home.png';
+import robotimg from '../../images/robot.png';
 const Gallery = () => {
   return (
     <React.Fragment>
@@ -9,10 +10,10 @@ const Gallery = () => {
             <div className='side-content'>
             <Link to='/'>
                     <div className='home-button'>
-                        <img src='../../images/home.png'></img>
+                        <img src={homeimg}></img>
                     </div>
             </Link>
-            <img className='side-pic' src='../../images/robot.png'></img>
+            <img className='side-pic' src={robotimg}></img>
             </div>
 
             <div className='content-container' style={{width:"80%"}}>
